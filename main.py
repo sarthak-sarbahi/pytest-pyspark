@@ -6,7 +6,7 @@ from datetime import datetime
 # - 'tests/' specifies the directory of the tests
 # - '--html=html/report.html' tells pytest to generate an HTML report
 # - '--self-contained-html' creates a single HTML file including all assets
-args = ['tests/', f'--html={os.getcwd()}/tests/reports/{datetime.now().strftime("%Y%m%d%H%M%s")}.html', '--self-contained-html']
+args = ['tests/', f'--html={os.getcwd()}/tests/reports/airlines_{datetime.now().strftime("%Y%m%d%H%M%s")}.html', '--self-contained-html']
 
 if __name__ == "__main__":
     
